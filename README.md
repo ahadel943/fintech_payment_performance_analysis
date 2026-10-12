@@ -30,3 +30,8 @@ The dataset supports the analysis of Payment Success Rate across multiple operat
 | `merchant_category` | Business category of the merchant. |
 | `status` | Final transaction outcome, recorded as Success or Failed. |
 | `failure_reason` | Recorded reason for a failed transaction, where available. |
+
+## **EDA & Baseline KPIs**
+![baseline_kpis](./charts/0.png)
+- The dataset contains **30,000 transactions** generated between **January 1 and March 30, 2026**, involving **7,822 unique customers** and **1,000 merchants**. The total transaction value is **19.56 million**, with an **average transaction amount of 652.08** and a **median of 451.92**.
+- Regarding payment performance, **26,337 transactions were successful (87.79%)**, while **3,663 transactions failed (12.21%)**. Although the overall success rate provides a useful performance baseline, it does not reveal whether failures are concentrated in specific payment methods, transaction channels, merchant categories, transaction amounts, or times of day. These dimensions will be examined in the subsequent analysis to identify segments associated with elevated failure rates.
