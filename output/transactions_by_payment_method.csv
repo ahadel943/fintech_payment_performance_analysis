@@ -1,0 +1,5 @@
+payment_method,trxs_count,perc
+Bank Transfer,4439,0.148
+Credit Card,9524,0.3175
+Debit Card,8409,0.2803
+Mobile Wallet,7628,0.2543
