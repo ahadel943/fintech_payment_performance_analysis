@@ -50,3 +50,13 @@ The dataset supports the analysis of Payment Success Rate across multiple operat
 ---
 ![transactions_by_day](./charts/5.png)
 - The day-of-week transaction distribution is relatively stable, with daily transaction counts ranging from **3,991 on Tuesday** to **4,476 on Sunday**, indicating no substantial variation in transaction volume across the week.
+
+## **Analysis**
+The analysis focuses primarily on Payment Failure Rate to evaluate payment performance across different transaction segments. While the overall number of failed transactions provides a measure of the scale of payment failures, it does not account for differences in transaction volume between segments. Failure Rate addresses this limitation by measuring the proportion of transactions that fail within each segment, enabling fairer comparisons across payment channels, methods, merchant categories, transaction amounts, and time periods. The analysis also examines each segment's contribution to total failed transactions to provide additional context on the overall impact of payment failures.
+### **Failure Rate by Channel**
+![failure_rate_by_channel](./charts/6.png)
+- The analysis shows differences in payment failure rates across transaction channels. The **Web** channel recorded the highest failure rate at **13.27%**, followed by the **Mobile App** at **12.06%**, while **POS** had the lowest rate at **10.66%**. Despite having a lower failure rate than **Web**, the **Mobile App** recorded the **highest number of failed transactions (1,623)**, compared with **1,401 on Web** and **639 on POS**. This highlights the importance of examining both failure rates and transaction volumes when evaluating payment performance across channels.
+- To complement these findings, the next step will calculate each channel's **Share of Total Failures** to determine its contribution to all failed transactions. This will provide additional context alongside the failure rate and help distinguish between channels with a high failure rate and those contributing a larger share of total failures.
+### **Channel's Share of Total Failures**
+![channel_share_of_total_failures](./charts/7.png)
+- The **Mobile App** accounted for **the largest share** of total failed transactions, contributing **44.31% of all failures**, followed by **Web at 38.25%** and **POS at 17.44%**. Although **Web** recorded **the highest failure rate** within its own transactions, the **Mobile App contributed a larger share of total failures**, reflecting its higher transaction volume. These findings highlight the importance of examining both failure rates and failure contributions to understand payment performance across channels.

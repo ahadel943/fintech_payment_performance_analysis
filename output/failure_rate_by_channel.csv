@@ -1,0 +1,4 @@
+channel,tranx_count,failed_tranx,failure_rate
+Mobile App,13453,1623,0.1206
+POS,5993,639,0.1066
+Web,10554,1401,0.1327

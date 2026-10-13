@@ -1,0 +1,4 @@
+channel,channel_failed_tranx,Failed Transactions,Channel's Share of Total Failures
+Mobile App,1623,3663,0.4431
+POS,639,3663,0.1744
+Web,1401,3663,0.3825
