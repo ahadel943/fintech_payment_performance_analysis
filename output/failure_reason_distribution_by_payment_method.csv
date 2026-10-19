@@ -1,0 +1,25 @@
+payment_method,failure_reason,failed_tranx,,,
+Bank Transfer,Bank Declined,158,,,
+,Fraud Detection,57,,,171
+,Insufficient Funds,171,,,
+,Invalid Card Details,68,,,
+,Technical Error,112,,,
+,Timeout,82,,,
+Credit Card,Bank Declined,255,,,263
+,Fraud Detection,75,,,
+,Insufficient Funds,263,,,
+,Invalid Card Details,101,,,
+,Technical Error,182,,,
+,Timeout,120,,,
+Debit Card,Bank Declined,241,,,289
+,Fraud Detection,84,,,
+,Insufficient Funds,289,,,
+,Invalid Card Details,110,,,
+,Technical Error,206,,,
+,Timeout,137,,,
+Mobile Wallet,Bank Declined,256,,,256
+,Fraud Detection,83,,,
+,Insufficient Funds,242,,,
+,Invalid Card Details,96,,,
+,Technical Error,153,,,
+,Timeout,122,,,

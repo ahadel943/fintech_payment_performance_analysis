@@ -76,3 +76,9 @@ The analysis focuses primarily on Payment Failure Rate to evaluate payment perfo
 ![failure_reason_distribution_by_channel](./charts/11.png)
 - **Insufficient Funds was the most common payment failure reason across all three transaction channels**, accounting for **417 cases on the Mobile App**, **360 on Web**, and **188 on POS**. **Bank Declined ranked second across all channels**, with **410, 342, and 158 cases, respectively**. Although the same two reasons ranked first and second across all channels, the difference between them varied, with the narrowest gap observed on the Mobile App.
 - These findings indicate a consistent pattern in the most frequent payment failure reasons across channels, with insufficient funds remaining the leading category regardless of transaction channel.
+### **Failure Reason Distribution by Payment Method**
+![failure_reason_distribution_by_payment_method](./charts/12.png)
+- **Insufficient Funds** was the most common payment failure reason for **Bank Transfer (171 cases)**, **Credit Card (263 cases)**, and **Debit Card (289 cases)**. However, **Mobile Wallet** showed a different pattern, with **Bank Declined ranking first at 256 cases**, followed by **Insufficient Funds at 242 cases**.
+- This indicates a consistent pattern across three payment methods, while Mobile Wallet represents an exception where bank declines are more frequent than insufficient-funds failures. The difference for Mobile Wallet is relatively small, so the finding should be interpreted as a difference in observed counts rather than evidence of a fundamentally different failure mechanism.
+
+## **Conclusion**
