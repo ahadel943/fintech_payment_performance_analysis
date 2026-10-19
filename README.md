@@ -82,3 +82,18 @@ The analysis focuses primarily on Payment Failure Rate to evaluate payment perfo
 - This indicates a consistent pattern across three payment methods, while Mobile Wallet represents an exception where bank declines are more frequent than insufficient-funds failures. The difference for Mobile Wallet is relatively small, so the finding should be interpreted as a difference in observed counts rather than evidence of a fundamentally different failure mechanism.
 
 ## **Conclusion**
+The analysis identified differences in payment performance across transaction **channels and payment methods**. **Web** recorded the highest failure rate at **13.27%**, while **Bank Transfer** had the highest failure rate among payment methods at **14.60%**. However, **Debit Card** accounted for the largest share of total failed transactions (**29.13%**), highlighting the influence of transaction volume on the overall distribution of failures. **Insufficient Funds** was the most common failure reason overall, accounting for **26.34%** of all failed transactions, and remained **the leading reason across all channels and three of the four payment methods**. **Mobile Wallet was the exception, where Bank Declined was the most frequent failure reason**. These findings highlight the value of examining both failure rates and failure volumes to better understand payment performance and identify areas for further investigation.
+
+## **Recommendations**
+- **Investigate Web payment failures**: Examine the factors contributing to the Web channel's 13.27% failure rate and determine whether specific technical or operational issues are associated with its higher rate.
+- **Review Bank Transfer performance**: Investigate why Bank Transfer has the highest failure rate at 14.60%, despite contributing only 17.69% of total failed transactions.
+- **Prioritize Debit Card failures**: Review Debit Card transactions because they account for the largest share of total failures (29.13%). Identify opportunities to reduce the number of failed transactions without overlooking differences in failure rates across payment methods.
+- **Address the most common failure reasons**: Investigate Insufficient Funds and Bank Declined, which together account for 51.18% of all failures. Consider clearer customer messaging and appropriate payment guidance where applicable.
+- **Investigate Mobile Wallet declines**: Examine why Bank Declined is the leading failure reason for Mobile Wallet transactions, unlike the other payment methods, to determine whether additional investigation or targeted improvements are warranted.
+
+## **Tools Used**
+- **`Python`**: Data analysis and exploratory analysis
+- **`Pandas`**:  Data cleaning, transformation, segmentation, and KPI calculations
+- **`Jupyter Notebook`**: Analysis workflow and documentation
+- **`Microsoft PowerPoint`**: Data visualization and presentation
+- **`Git / GitHub`**: Project version control and repository management
