@@ -1,0 +1,19 @@
+channel,failure_reason,failed_tranx
+Mobile App,Bank Declined,410
+Mobile App,Fraud Detection,124
+Mobile App,Insufficient Funds,417
+Mobile App,Invalid Card Details,177
+Mobile App,Technical Error,281
+Mobile App,Timeout,214
+POS,Bank Declined,158
+POS,Fraud Detection,55
+POS,Insufficient Funds,188
+POS,Invalid Card Details,50
+POS,Technical Error,107
+POS,Timeout,81
+Web,Bank Declined,342
+Web,Fraud Detection,120
+Web,Insufficient Funds,360
+Web,Invalid Card Details,148
+Web,Technical Error,265
+Web,Timeout,166
