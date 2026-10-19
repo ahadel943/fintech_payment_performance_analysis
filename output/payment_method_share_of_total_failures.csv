@@ -1,0 +1,5 @@
+payment_method,failed_tranx,Failed Transactions,Payment Method Share of Total Failures
+Bank Transfer,648,3663,0.1769
+Credit Card,996,3663,0.2719
+Debit Card,1067,3663,0.2913
+Mobile Wallet,952,3663,0.2599
