@@ -1,0 +1,7 @@
+failure_reason,failed_tranx,Failure Reason's Share of Total Failures
+Insufficient Funds,965,0.2634
+Bank Declined,910,0.2484
+Technical Error,653,0.1783
+Timeout,461,0.1259
+Invalid Card Details,375,0.1024
+Fraud Detection,299,0.0816
