@@ -60,3 +60,7 @@ The analysis focuses primarily on Payment Failure Rate to evaluate payment perfo
 ### **Channel's Share of Total Failures**
 ![channel_share_of_total_failures](./charts/7.png)
 - The **Mobile App** accounted for **the largest share** of total failed transactions, contributing **44.31% of all failures**, followed by **Web at 38.25%** and **POS at 17.44%**. Although **Web** recorded **the highest failure rate** within its own transactions, the **Mobile App contributed a larger share of total failures**, reflecting its higher transaction volume. These findings highlight the importance of examining both failure rates and failure contributions to understand payment performance across channels.
+### **Failure Rate by Payment Method**
+![failure_rate_by_payment_method](./charts/8..png)
+- Payment failure rates vary across payment methods, with **Bank Transfer** recording the highest failure rate at **14.60%**, followed by **Debit Card at 12.69%**, **Mobile Wallet at 12.48%**, and **Credit Card at 10.46%**.
+- Notably, **Bank Transfer** has the lowest transaction volume (**4,439 transactions**) but the highest failure rate, while **Credit Card** has the highest transaction volume (**9,524 transactions**) and the lowest failure rate. The **4.14 percentage-point** gap between the highest and lowest failure rates indicates a more pronounced variation across payment methods than across transaction channels, suggesting that payment method is an important dimension to investigate when evaluating payment failures.

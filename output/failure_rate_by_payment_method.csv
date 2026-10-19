@@ -1,0 +1,5 @@
+payment_method,tranx_count,failed_tranx,failure_rate
+Bank Transfer,4439,648,0.146
+Credit Card,9524,996,0.1046
+Debit Card,8409,1067,0.1269
+Mobile Wallet,7628,952,0.1248
